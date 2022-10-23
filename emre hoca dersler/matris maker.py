@@ -1,4 +1,4 @@
-import numpy as 
+import numpy as np
 import turtle
 def matriskutusu(sayi1,sayi2):
     ilkmatris = []
