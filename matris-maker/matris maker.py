@@ -1,4 +1,4 @@
-
+import numpy as np
 import turtle
 def matriskutusu(sayi1,sayi2):
     ilkmatris = []
@@ -36,13 +36,13 @@ def emrehoca():
     t.end_fill()
 
     t.penup()
-    t.goto(-100,130)
+    t.goto(-155,130)
     t.pendown()
     t.color('white')
-    t.write("EMRE HOCA",font=("Verdana",25,"bold"))
+    t.write("ZEYNEP & KENAN",font=("Verdana",25,"bold"))
 
     t.penup()
-    t.goto(-220,-180)
+    t.goto(-400,-180)
     t.pendown()
     t.color('white')
     t.write("",font=("Verdana",30,"bold"))
