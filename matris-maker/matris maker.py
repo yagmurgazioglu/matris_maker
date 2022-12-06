@@ -20,12 +20,12 @@ def emrehoca():
     t = turtle.Turtle()
     s = turtle.Screen()
 
-    s.bgcolor('black')
+    s.bgcolor('red')
     t.hideturtle()
     t.goto(0,-10)
 
     t.pensize(3)
-    t.color('red')
+    t.color('blue')
     t.begin_fill()
     t.left(140)
     t.forward(180)
@@ -38,7 +38,7 @@ def emrehoca():
     t.penup()
     t.goto(-155,130)
     t.pendown()
-    t.color('white')
+    t.color('red')
     t.write("YAĞMUR ",font=("Verdana",25,"bold"))
 
     t.penup()
